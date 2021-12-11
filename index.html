@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Mailchimp</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="container__aside-image">
+        <img src="./img/mailchimp.jpeg" alt="mailchimp" />
+      </aside>
+      <div class="container__aside-form">
+        <div class="container__heading">
+          <h1>Welcome to Mailchimp</h1>
+          <p>
+            Find your people. Engage your customers. Build your brand. Do it all
+            with Mailchimp's Marketing Platform. Already have an account?
+            <a href="">Log in</a>
+          </p>
+        </div>
+        <div class="container__form">
+          <form action="/" method="post" class="container__form--inputs">
+            <label for="email">Email</label>
+            <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" />
+            <label for="username">Username</label>
+            <input type="text" id="username" />
+            <div class="line">
+              <label for="password">Password</label>
+              <!-- <img src="./img/eye-svgrepo-com.svg" alt="" class="container__form--eyeIcon"> -->
+              <div class="line__showPwd">
+                <svg
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="456.793px"
+                    height="456.793px"
+                    viewBox="0 0 456.793 456.793"
+                    style="enable-background: new 0 0 456.793 456.793"
+                    xml:space="preserve"
+                class="line__showPwd--eyeIcon">
+                    <g>
+                    <g>
+                        <path
+                        d="M448.947,218.474c-0.922-1.168-23.055-28.933-61-56.81c-50.707-37.253-105.879-56.944-159.551-56.944
+                c-53.673,0-108.845,19.691-159.551,56.944c-37.944,27.876-60.077,55.642-61,56.81L0,228.396l7.845,9.923
+                c0.923,1.168,23.056,28.934,61,56.811c50.707,37.254,105.878,56.943,159.551,56.943c53.672,0,108.844-19.689,159.551-56.943
+                c37.945-27.877,60.078-55.643,61-56.811l7.846-9.923L448.947,218.474z M228.396,312.096c-46.152,0-83.699-37.548-83.699-83.699
+                c0-46.152,37.547-83.699,83.699-83.699s83.7,37.547,83.7,83.699C312.096,274.548,274.548,312.096,228.396,312.096z
+                M41.685,228.396c9.197-9.872,25.32-25.764,46.833-41.478c13.911-10.16,31.442-21.181,51.772-30.305
+                c-15.989,19.589-25.593,44.584-25.593,71.782s9.604,52.193,25.593,71.782c-20.329-9.124-37.861-20.146-51.771-30.306
+                C67.002,254.159,50.878,238.265,41.685,228.396z M368.273,269.874c-13.912,10.16-31.443,21.182-51.771,30.306
+                c15.988-19.589,25.594-44.584,25.594-71.782s-9.605-52.193-25.594-71.782c20.33,9.124,37.861,20.146,51.771,30.305
+                c21.516,15.715,37.639,31.609,46.832,41.477C405.91,238.268,389.785,254.161,368.273,269.874z"
+                        />
+                        <path
+                        d="M223.646,168.834c-27.513,4-50.791,31.432-41.752,59.562c8.23-20.318,25.457-33.991,45.795-32.917
+                c16.336,0.863,33.983,18.237,33.59,32.228c1.488,22.407-12.725,39.047-32.884,47.191c46.671,15.21,73.197-44.368,51.818-79.352
+                C268.232,175.942,245.969,166.23,223.646,168.834z"
+                        />
+                    </g>
+                    </g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    </svg><p>Show</p>
+                </div>
+            </div>
+            
+            <input type="password" id="password" pattern="(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*].{8,}"/>
+
+            <div class="">
+              <ul class="container__form--list">
+                
+                <span class="container__form--list__span">
+                  <li>One lowercase character</li>
+                  <li>One uppercase character</li>
+                  <li>One number</li>
+                </span>
+                <span class="container__form--list__span">
+                  <li>One special character</li>
+                  <li>8 characters minimum</li>
+                </span>
+              
+              </ul>
+            </div>
+            <div class="container__form--finalDiv">
+              <!-- <span> -->
+              <button type="submit" class="container__form--button" disabled="true">Sign up</button>
+
+              <div class="container__form--checkbox">
+                <input type="checkbox" id="unsubscribe" />
+              </div>
+              <div class="container__form--unsubscribeText">
+                <label for="unsubscribe"
+                  >I don't want to receive emails about new Mailchimp products,
+                  best practices, or special offers.</label
+                >
+              </div>
+            </div>
+          </form>
+        </div>
+        <footer>
+          <p>
+            By clicking the "Sign Up" button, you are creating a Mailchimp
+            account, and you agree to Mailchimp's
+            <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

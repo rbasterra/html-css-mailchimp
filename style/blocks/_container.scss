@@ -1,0 +1,167 @@
+.container{
+    @include flexContainer (row, center, flex-start, nowrap);
+
+    margin: 0 50px;
+
+    &__aside-image{
+        width: auto;
+        margin: 3rem 2rem 0 4rem;
+        background-color: white;
+
+        img{
+            width: 10rem;
+        }
+    }
+
+    &__aside-form{
+        width: 30rem;
+    }
+
+    &__heading{
+        h1{
+            font-size: 40px;
+        }
+
+        p{
+            // color:$text-color;
+            font-size:$pfont-size;
+            
+        }
+    }
+
+    &__form{
+
+        &--inputs{
+            @include flexContainer (column, flex-start, flex-start, wrap);
+            
+
+            label{
+                padding:0 0 10px 0;
+                font-weight: bold;
+            }
+
+            //Estilos div container para la linea del <label> password y el icono del ojo + <p>Show
+            .line{
+                padding: 0 0 10px 0;
+                width:100%;
+
+                &__showPwd{
+
+                    float:right;
+                    height: 1rem;
+
+                    &--eyeIcon{
+                        width: 15px;
+                        height:15px;
+                        fill:$base-color;
+                        // float:right;
+            
+                    }
+
+                    p{
+                        display: inline-block;
+                        width:10px;
+                        margin: 0 0 0 0.5rem;
+                        // margin-left: 0.5rem;
+                        color:$base-color;
+                        // float: right;
+                    }
+
+                }
+
+
+                
+            }
+
+            input{
+                padding: 10px;
+                margin: 0 0 20px 0;
+                width: 100%;
+                
+            }
+        }
+
+
+
+        &--list{
+
+            @include flexContainer(row, flex-start, space-between, wrap);
+
+            list-style: none;
+            width:100%;
+            font-size: $smallFont-size;
+            // width:200px;
+            // height:100px;
+
+            &__span{
+                margin-right: 5rem;
+            }
+
+            li{
+                width: 10rem;
+                &::before{
+                    content: "\2022";
+                    font-size: 120%;
+                    color:$base-color;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -3em;
+                    
+
+                }
+
+                // margin-right: 4rem;
+                
+                
+                
+            }
+        }
+
+        &--finalDiv{
+            @include flexContainer (row,flex-start, center, nowrap);
+            width:100%;
+
+            margin: 2rem 0;
+            
+            // label{
+            //     font-weight: normal;
+            //     font-size:12px;
+            //     margin-left:1rem;
+            // }
+
+            // input{
+            //     width:auto;
+            //     // margin-left: 1rem;
+            // }
+        }
+
+        &--button{
+            
+            width:10rem;
+            padding: 20px;
+
+        }
+
+        &--checkbox{
+
+            input{
+
+                width:auto;
+                margin-left:20px;
+                
+            }
+
+        }
+
+        &--unsubscribeText{
+            margin-left: 10px;
+            font-size: $smallFont-size;
+
+            label{
+                font-weight: normal;
+            }
+        }
+        
+    }
+}
+

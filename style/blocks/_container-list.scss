@@ -1,0 +1,4 @@
+.container-list{
+    width:800px;
+    @include flexContainer (row, space-around, flex-start, nowrap);
+}

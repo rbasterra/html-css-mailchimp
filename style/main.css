@@ -1,0 +1,204 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 50px;
+}
+
+.container__aside-image {
+  width: auto;
+  margin: 3rem 2rem 0 4rem;
+  background-color: white;
+}
+
+.container__aside-image img {
+  width: 10rem;
+}
+
+.container__aside-form {
+  width: 30rem;
+}
+
+.container__heading h1 {
+  font-size: 40px;
+}
+
+.container__heading p {
+  font-size: 15px;
+}
+
+.container__form--inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container__form--inputs label {
+  padding: 0 0 10px 0;
+  font-weight: bold;
+}
+
+.container__form--inputs .line {
+  padding: 0 0 10px 0;
+  width: 100%;
+}
+
+.container__form--inputs .line__showPwd {
+  float: right;
+  height: 1rem;
+}
+
+.container__form--inputs .line__showPwd--eyeIcon {
+  width: 15px;
+  height: 15px;
+  fill: #007C89;
+}
+
+.container__form--inputs .line__showPwd p {
+  display: inline-block;
+  width: 10px;
+  margin: 0 0 0 0.5rem;
+  color: #007C89;
+}
+
+.container__form--inputs input {
+  padding: 10px;
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+.container__form--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  list-style: none;
+  width: 100%;
+  font-size: 12px;
+}
+
+.container__form--list__span {
+  margin-right: 5rem;
+}
+
+.container__form--list li {
+  width: 10rem;
+}
+
+.container__form--list li::before {
+  content: "\2022";
+  font-size: 120%;
+  color: #007C89;
+  display: inline-block;
+  width: 1em;
+  margin-left: -3em;
+}
+
+.container__form--finalDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.container__form--button {
+  width: 10rem;
+  padding: 20px;
+}
+
+.container__form--checkbox input {
+  width: auto;
+  margin-left: 20px;
+}
+
+.container__form--unsubscribeText {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.container__form--unsubscribeText label {
+  font-weight: normal;
+}
+
+.aside-image {
+  width: 500px;
+  margin: 400px;
+  background-color: white;
+}
+
+.container-list {
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer {
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: "Graphik Web Regular Regular";
+  src: url("./fonts/Graphik/105007d99d9df64c50cc24d696d79555.eot");
+  /* IE9*/
+  src: url("./fonts/Graphik/105007d99d9df64c50cc24d696d79555.eot?#iefix") format("embedded-opentype"), url("./fonts/Graphik/105007d99d9df64c50cc24d696d79555.woff2") format("woff2"), url("./fonts/Graphik/105007d99d9df64c50cc24d696d79555.woff") format("woff"), url("./fonts/Graphik/105007d99d9df64c50cc24d696d79555.ttf") format("truetype"), url("./fonts/Graphik/105007d99d9df64c50cc24d696d79555.svg#Graphik Web Regular Regular") format("svg");
+  /* iOS 4.1- */
+}
+
+body {
+  font-family: "Graphik Web Regular Regular";
+}
+
+body a {
+  color: #007C89;
+}
+/*# sourceMappingURL=main.css.map */
